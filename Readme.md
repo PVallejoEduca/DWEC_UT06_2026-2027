@@ -1,3 +1,5 @@
+![Portada de DWEC - UT06](./assets/repo-cover-dwec-2026-2027.png)
+
 # DWEC UT06: Conceptos avanzados de React.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
@@ -14,4 +16,3 @@ Recopilados, resumidos y traducidos de otros apuntes disponibles en la red:
 * React Hooks  - [Enlace](https://medium.com/@johnnyJK/react-hooks-a-comprehensive-beginners-guide-a93a2a7d85e6)
 * Desarrollo Útil - [Enlace](https://www.youtube.com/@DesarrolloUtil/featured)
 * Midulive - [Enlace](https://www.youtube.com/@midulive/featured)
-
