@@ -1,5 +1,3 @@
-![Portada de DWEC - UT06](./assets/repo-cover-dwec-2026-2027.png)
-
 # DWEC UT06: Conceptos avanzados de React.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
