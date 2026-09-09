@@ -55,7 +55,7 @@ ReactDOM.render (
 
 ## Redigiendo a otros componentes
 
-Vamos a crear varios componentes que nos serviran de muestra y los vamos a llamar `Inicio`, `Nosotros` y `Contacto`.
+Vas a crear varios componentes que te servirán de muestra y los vas a llamar `Inicio`, `Nosotros` y `Contacto`.
 
 Van a ser muy sencillos ya que solo van a tener un `h1` y un texto identificativo del componente. Seguiran el patron de este ejemplo:
 
@@ -72,7 +72,7 @@ export default Inicio;
 ```
 ### Definición de rutas
 
-Una vez tengamos los componentes creados, tendremos que definir las rutas. Dado que el componente `App` actúa como el componente raíz, dónde se renderiza al principio nuestro código React, vamos a crear todas nuestras rutas en él. 
+Una vez tengas los componentes creados, tendrás que definir las rutas. Dado que el componente `App` actúa como el componente raíz, dónde se renderiza al principio nuestro código React, vas a crear todas tus rutas en él. 
 
 Para ello importaremos las funcionalidades que emplearemos: `Routes` y `Route`. A continuación, importaremos todos los componentes a los que necesitamos proporcionar una ruta.
 
@@ -110,7 +110,7 @@ export default Aplicacion
 
 Los elementos Link que nos proporciona `ReactRouter` sirven para usar como enlaces entre las diferentes "páginas". Son muy similares a los anchors que conocemos de HTML (`<a>`) pero con atributos diferentes.
 
-Vamos a añadir 2 elementos `Link` para poder navegar desde la pagina del componente que se carga al principio que es `Inicio` a las otras dos páginas que tenemos, `Nosotros` y `Contacto`.
+Vas a añadir 2 elementos `Link` para poder navegar desde la pagina del componente que se carga al principio que es `Inicio` a las otras dos páginas que tenemos, `Nosotros` y `Contacto`.
 
 ```jsx
 import { Link } from "react-router-dom";
@@ -136,7 +136,7 @@ Con el atributo `to=` especificaremos cual es el **path** al que queremos ir. Es
 <img src="./img/no_route_found.png" width="100%" height="60%" style="display: block; margin: 0 auto" />
 </p>
 
-Os dejo un video donde "Midudev" explica con otro ejemplo como configurar rutas con ReactRouter.
+Te dejo un video donde "Midudev" explica con otro ejemplo como configurar rutas con ReactRouter.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=xE7TBCR6cj0">
@@ -197,13 +197,13 @@ La ruta que tenemos definida para estos post, apuntan al mismo componente `<Blog
 
 De hecho, si se cambia a mano el `id` del post en la URL podemos ver como sigue funcionando, aunque renderiza el mismo componente como antes.
 
-Para acceder al parametro concreto que hemos definido en `Route`, vamos a importar `useParams` de `react-router-dom`.
+Para acceder al parametro concreto que hemos definido en `Route`, vas a importar `useParams` de `react-router-dom`.
 
 ```jsx
 import { BrowserRouter, Link, Routes, Route, useParams } from "react-router-dom";
 ```
 
-Ahora utilizaremos este hook dentro del componente `BlogPost` utilizando como referencia el nombre de parametro que hayamos definido en `Route`.
+Ahora utilizarás este hook dentro del componente `BlogPost` utilizando como referencia el nombre de parámetro que hayas definido en `Route`.
 
 ```jsx
 ...
@@ -224,7 +224,7 @@ function BlogPost() {
 De esta manera ya tenemos acceso a los parametros dinamicos que se han generado en la URL y podemos renderizar lo que a nosotros nos parezca.
 Podeis comprobar que cuando cambiamos la URL manualmente, ahora si se renderiza el componente con el valor que tiene en la URL.
 
-Os dejo con otro video donde "Midudev" hace una segunda parte del video anterior y añade rutas dinamicas a su app.
+Te dejo con otro video donde "Midudev" hace una segunda parte del video anterior y añade rutas dinamicas a su app.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=yG8fx346pYQ">

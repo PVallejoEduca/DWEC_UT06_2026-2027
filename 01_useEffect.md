@@ -84,7 +84,7 @@ useEffect(()=>{
 }, [])
 ```
 
-Imaginemos que solo queremos ejecutar ese efecto cuando el numero de `counter` supere el valor `10` o `-10` que vamos a marcar como límite. Para ello vamos a crear una variable que controle si excedemos ese limite por alguno de los extremos.
+Imaginemos que solo queremos ejecutar ese efecto cuando el numero de `counter` supere el valor `10` o `-10` que vas a marcar como límite. Para ello vas a crear una variable que controle si excedemos ese limite por alguno de los extremos.
 
 ```jsx
 import { useEffect } from 'react';
@@ -184,7 +184,7 @@ En producción, solo verás "✅ Conectando..." una vez. Volver a montar compone
 
 ### Efectos Secundarios 
 
-Os dejo un video donde los chicos de "**Desarrollo Útil**" explicamen con varios ejemplos muy sencillo cuales son los efectos secundarios (sideEffects) que podemos tener cuando trabajamos con useEffect y eventos.
+Te dejo un video donde los chicos de "**Desarrollo Útil**" explicamen con varios ejemplos muy sencillo cuales son los efectos secundarios (sideEffects) que podemos tener cuando trabajamos con useEffect y eventos.
 
 * Cuando se ejecuta la función de "cleanup" cuando tenemos dependencias.
 * Cuando tenemos suscripciones a eventos con `addEventListener`.
@@ -198,7 +198,7 @@ Os dejo un video donde los chicos de "**Desarrollo Útil**" explicamen con vario
 
 ### Otro ejemplo
 
-Tambien os dejo un video del youtuber "**Midudev**" que en esta parte del video crea otro ejemplo (mas visual y diferente) utilizando useEffect. Además, nos habla de la inportancía de utilizar las funciones de `cleanup` cuando desmontamos un componente.
+Tambien te dejo un video del youtuber "**Midudev**" que en esta parte del video crea otro ejemplo (mas visual y diferente) utilizando useEffect. Además, nos habla de la inportancía de utilizar las funciones de `cleanup` cuando desmontamos un componente.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=qkzcjwnueLA&t=4937s">

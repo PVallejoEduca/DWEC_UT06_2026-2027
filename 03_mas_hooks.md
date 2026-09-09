@@ -1,6 +1,6 @@
 # DWEC UT06: Conceptos avanzados de React.
 
-Existen muchos otros hooks que tienen diversas utilidades. Vamos a ver de manera resumida algunos de ellos.
+Existen muchos otros hooks que tienen diversas utilidades. Vas a ver de manera resumida algunos de ellos.
 
 ## useContext
 
@@ -8,7 +8,7 @@ Existen muchos otros hooks que tienen diversas utilidades. Vamos a ver de manera
 
 Al utilizar `useContext`, los componentes pueden consumir valores de contexto proporcionados por un proveedor (`Provider`) que se encuentra más arriba en el árbol de componentes, lo que elimina la necesidad de pasar datos a través de componentes intermedios. Este enfoque simplifica el código y mejora la escalabilidad.
 
-En el siguiente video teneis un ejemplo muy ilustrador de como usariamos el hook `useContext`.
+En el siguiente video tienes un ejemplo muy ilustrador de como usariamos el hook `useContext`.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=FpNfvbNYPsg">
@@ -16,7 +16,7 @@ En el siguiente video teneis un ejemplo muy ilustrador de como usariamos el hook
 </a>
 </p>
 
-> Tenéis multitud de ejemplos en la página oficial de React. Os enlazo otro ejemplo para ver mejor su utilidad práctica. [Ejemplo de formulario](https://codesandbox.io/p/sandbox/react-dev-zjfrll?file=%2Fsrc%2FApp.js&utm_medium=sandpack).
+> Tienes multitud de ejemplos en la página oficial de React. Te enlazo otro ejemplo para ver mejor su utilidad práctica. [Ejemplo de formulario](https://codesandbox.io/p/sandbox/react-dev-zjfrll?file=%2Fsrc%2FApp.js&utm_medium=sandpack).
 
 
 ## useReducer
@@ -103,7 +103,7 @@ return (
 </a>
 </p>
 
-> Os dejo este [articulo](https://dev.to/m0nm/usestate-vs-usereducer-what-are-they-and-when-to-use-them-2c5c) de donde esta sacado el ejemplo que hemos visto. Pero además, teneis una breve explicación de cuando utilizar `useReducer` y una comparación de un ejemplo utilizando ambos hooks.
+> Te dejo este [articulo](https://dev.to/m0nm/usestate-vs-usereducer-what-are-they-and-when-to-use-them-2c5c) de donde esta sacado el ejemplo que hemos visto. Pero además, tienes una breve explicación de cuando utilizar `useReducer` y una comparación de un ejemplo utilizando ambos hooks.
 
 ## useCallback
 
@@ -253,7 +253,7 @@ function ApiComponent() {
 export default ApiComponent;
 ```
 
-Os dejo otro video del bueno de "Midudev" que lo explica con otro ejemplo para que lo podais entender mejor.
+Te dejo otro video del bueno de "Midudev" que lo explica con otro ejemplo para que lo puedas entender mejor.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=K4vCTeKKCkU">
